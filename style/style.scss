@@ -1,0 +1,37 @@
+@font-face{
+    font-family: Pretendard;
+    src: url("../font/Pretendard-Regular.subset.woff2") format(woff2),
+         url("../font/Pretendard-Regular.subset.woff") format(woff);
+    font-weight: 400;
+    font-style: normal;     
+}
+
+@font-face{
+    font-family: PicNic;
+    src: url("../font/PicNic.woff2") format(woff2),
+         url("../font/PicNic.woff") format(woff);
+         font-weight: 400;
+         font-style: normal;  
+}
+
+@font-face {
+    font-family: Anthony;
+    src: url("../font/Anthony.woff2") format(woff2),
+         url("../font/Anthony.woff") format(woff);
+         font-weight: 400;
+         font-style: normal;  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+    box-sizing: border-box;
+    position:relative;
+}
+
+//font-family: "Noto Sans TC", serif;
+//font-family: "Oi", serif;
+//font-family: "Rubik Puddles", system-ui;
