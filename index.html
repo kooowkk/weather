@@ -6,15 +6,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Oi&family=Rubik+Puddles&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://use.typekit.net/dnb8dih.css">
     <link rel="stylesheet" href="/style/style.css">
     <title>Weather</title>
 </head>
-<body>
-    <section class="poster background"></section>
+<body class="sunny">
+    <section class="poster background">
+        <div class="sun-circle">
+            <div class="sunny-sun">
+                <svg width="527" height="527" viewBox="0 0 527 527" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M319.055 263.5H527M0 263.5H207.945M302.783 302.783L449.823 449.823M77.1774 77.1773L224.217 224.217M302.783 224.217L449.823 77.1774M77.1773 449.823L224.217 302.783M263.5 207.945L263.5 0M263.5 527L263.5 319.055" stroke="#FF1E2B" stroke-width="6"/>
+                    </svg>
+            </div>
+
+        </div>
+    </section>
 
     <section class="title">
-        <h1> 구름</h1>
-        <H1>hi</H1>
+        <h1> 맑음</h1>
+        <h2>Sunny</h2>
     </section>
     <section class="contents">
         <div>
@@ -31,8 +41,9 @@
             <p class="location">Gangnam-gu, Seoul</p>
             <p time="location">14:00 03/10/2022</p>
         </div>
-    <section class="poster forward"></section>    
-
     </section>
+    <!-- <section class="poster forward"></section>     -->
+    <script src="./js/index.js"></script>
+   
 </body>
 </html>
